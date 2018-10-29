@@ -1,3 +1,9 @@
+$(document).ready(function() {
+    // Load lightbox observers
+    imgObserver();
+    vidObserver();
+});
+
 // Display image lightbox
 function imgObserver() {
     $(".lightbox-img").click(function() {
